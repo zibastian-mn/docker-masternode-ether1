@@ -2,7 +2,7 @@ Introduction
 ---
 This image is running an Ether-1 (ETHO) Masternode
 
-**GitHub:** https://github.com/zibastian-mn/docker-masternode-ether1/
+**GitHub:** https://github.com/zibastian-mn/docker-masternode-ether1/  
 **Docker:** https://hub.docker.com/r/zibastian/masternode-ether1/
 
 ---
