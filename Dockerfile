@@ -12,7 +12,7 @@ RUN groupadd -g 900 ${usr} && \
 	&& chown -R ${usr}:${usr} /opt/${usr}
 
 RUN cd /usr/bin/ \
-	&& wget -O - https://ether1.org/releases/Ether1-MN-SN-0.0.6.tar.gz | tar xfvz -
+	&& wget -O - https://ether1.org/releases/Ether1-MN-SN-0.0.7.tar.gz | tar xfvz -
 
 COPY ./docker-entrypoint.sh /usr/bin/docker-entrypoint
 RUN chmod +x /usr/bin/docker-entrypoint
